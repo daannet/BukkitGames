@@ -1,0 +1,16 @@
+name: BukkitGames
+main: bukkitgames.main.Main
+version: 2.0-SNAPSHOT
+website: http://dev.bukkit.org/server-mods/bukkitgames
+dev-url: http://dev.bukkit.org/server-mods/bukkitgames
+author: ftbastler
+startup: startup
+depend: 
+  - SQLibrary
+description: The BukkitGames.
+
+commands:
+  kit: 
+    usage: /<command>
+  start: 
+    usage: /<command>

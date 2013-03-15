@@ -1,0 +1,19 @@
+# This is your config.yml file. In here you can customize all BukkitGames options.
+
+# Use MySQL instead of SQLite
+MYSQL: true
+
+# MySQL Configuration (-> MYSQL is true)
+HOSTNAME: 'mysqlhost.com'
+PORT: 3306
+USERNAME: 'test'
+PASSWORD: '123'
+DATABASE: 'bukkitgames'
+
+# SQLite Configuration (-> MYSQL is false)
+DIRECTORY: '/directory/'
+FILENAME: 'database.sqlite'
+
+
+# If set to true, the maximum amount of players in the serverlist will be set to the amount of players at the beginning of the game.
+GAMERS_IN_LIST: true
